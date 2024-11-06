@@ -8,16 +8,16 @@ This repository contains code and data files for the analysis and testing of the
 
 
 ### 1. Relationship Analysis
-The `Refression and Correlation" code file assesses how the Lexical Ratio (LR) relates to two other diversification metrics: DR_SD (Diversification Ratio based on Standard Deviation) and DR_VaR (Diversification Ratio based on Value at Risk). This analysis provides insights into how LR compares with and complements these existing metrics.
+The `Refression and Correlation" code file assesses how the Lexical Ratio (LR) relates to other three diversification metrics: Markowitz, DR_SD (Diversification Ratio based on Standard Deviation) and DR_VaR (Diversification Ratio based on Value at Risk). This analysis provides insights into how LR compares with and complements these existing metrics.
 
-The "Conditional Relationship Analysis" code file is our conditional non-parametric analysis using the Azadkia-Chaterjee method.
+The `Conditional Relationship Analysis` code file is our conditional non-parametric analysis using the Azadkia-Chaterjee method.
 ### 2. Robustness testing
-use the file "Robsutness analysis" to access the k-fold robustness analysis outlined in the paper.
+use the file `Robsutness analysis` to access the k-fold robustness analysis outlined in the paper.
 ### 3. Optimization Testing
 The `Optimization_testing` code file offers optimization results and out-of-sample testing for various metrics, including LR. This section focuses on applying the LR metric to real-world portfolio data, optimizing the portfolios, and testing their performance against other metrics in an out-of-sample framework.
 
 ## Data
-Data for the S&P 500 is created using the code in Data set creation. The API key is modified in this code. The file "Data Set Creation" and "Random generator" were used for portfolio creations.
+Data for the S&P 500 is created using the code in Data set creation. The API key is modified in this code. The file `Data Set Creation` and `Random generator` were used for portfolio creations.
 The `news_data.csv` file contains the data used in the analysis. This data includes headlines and news content from 2018 to July 1st, 2024, for S&P 500 along with VIX news. The news data is utilized in the calculation of the Lexical Ratio and other related metrics. It is a large file and can be accessed at: https://drive.google.com/file/d/14L6Hzm68KQ8IrQ0JOrB1Rf8UHbWGSiLN/view?usp=sharing
 
 The ticker list is stored in sp500_tickers.txt.
