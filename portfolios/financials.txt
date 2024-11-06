@@ -1,0 +1,10 @@
+BRK.B
+JPM
+V
+MA
+BAC
+WFC
+MS
+GS
+BLK
+SPGI
