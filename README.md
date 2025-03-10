@@ -26,8 +26,8 @@ The `portfolios` folder contains text files representing different portfolios. T
 
 
 ## Usage
-1. **Relationship Analysis**: Use the two relevant files to assess how LR relates to DR_SD and DR_VaR, providing a comparative analysis of these metrics.
-2. **Robustness analysis**: Use this file to asses the robustness of metric using CV
-3. **Real-World Testing**: Execute the `Optimization Testing` code file to perform optimization and out-of-sample testing on real-world portfolio data, comparing LR with other metrics.
+1. **Relationship Analysis.ipynb**: Use the two relevant files to assess how LR relates to DR_SD and DR_VaR, providing a comparative analysis of these metrics.
+2. **Robustness analysis.ipynb**: Use this file to asses the robustness of metric using CV
+3. **Real-World Testing.ipynb**: Execute the `Optimization Testing` code file to perform optimization and out-of-sample testing on real-world portfolio data, comparing LR with other metrics.
 Make sure the `portfolios` and `news_data` folders are correctly placed in the repository structure for the code files to function properly.
 4. **LR Time series.ipynb**: Use this file to create plots of optmized LR values over optimization intervals.
